@@ -1,0 +1,40 @@
+# site settings
+title: Students Against Gun Violence
+subtitle: by Michigan Students
+email: studentsforgunlegislation@gmail.com
+description: A site to bring together all Students fighting for stricter Gun Legislation.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "studentsforgl.github.io" # the base hostname & protocol for your site
+author:
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone: 
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/studentsforGL
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+host: 0.0.0.0
+port: 2000
+exclude: [.git, Gemfile, Gemfile.lock, package.json, package-lock.json]
